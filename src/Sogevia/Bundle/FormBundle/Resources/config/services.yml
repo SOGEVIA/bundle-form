@@ -1,0 +1,14 @@
+services:
+    iziscar_form.form_handler:
+        class: Iziscar\Component\Form\FormHandler
+
+    iziscar_form.confirm.form_type:
+        class: Iziscar\Component\Form\Type\ConfirmType
+        tags:
+            - { name: "form.type", alias: "iziscar_confirm_type" }
+
+    iziscar_form.boolean.form_type:
+        class: Iziscar\Component\Form\Type\BooleanType
+        tags:
+            - { name: "form.type", alias: "boolean" }
+

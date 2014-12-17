@@ -1,0 +1,24 @@
+.boolean-form-type-container {
+    position: relative;
+    height: 2.2em;
+    width: 78px;
+    background-color: #e3e3e3;
+    overflow: hidden;
+    border: 1px solid #e3e3e3;
+
+    transition: background-color 0.2s 0s linear;
+}
+
+.boolean-form-type-container .boolean-btn {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    background: #fff;
+    border: none;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+
+    transition: margin-left 0.1s 0s linear;
+}
+
+.boolean-form-type-container.yes { background: #5bc0de }
+.boolean-form-type-container.yes .boolean-btn { margin-left: 50% }
