@@ -18,10 +18,5 @@
     "require-dev": {
         "m6web/coke"                     : "~1.2",
         "m6web/Symfony2-coding-standard" : "~1.2"
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0.0"
-        }
     }
 }
