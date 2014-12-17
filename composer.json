@@ -7,9 +7,13 @@
         "psr-0": { "" : "src/" }
     },
     "require": {
-        "php"                      : ">=5.3.3",
-        "symfony/form"             : "~2.5",
-        "symfony/options-resolver" : "~2.5"
+        "php"                          : ">=5.3.3",
+        "symfony/config"               : "~2.5",
+        "symfony/http-kernel"          : "~2.5",
+        "symfony/form"                 : "~2.5",
+        "symfony/options-resolver"     : "~2.5",
+        "symfony/dependency-injection" : "~2.5",
+        "sogevia/component-form"       : "~1.1"
     },
     "require-dev": {
         "m6web/coke"                     : "~1.2",
