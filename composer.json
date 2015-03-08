@@ -13,7 +13,7 @@
         "symfony/form"                 : "~2.5",
         "symfony/options-resolver"     : "~2.5",
         "symfony/dependency-injection" : "~2.5",
-        "sogevia/component-form"       : "~1.2"
+        "sogevia/component-form"       : "~1.3"
     },
     "require-dev": {
         "m6web/coke"                     : "~1.2",
