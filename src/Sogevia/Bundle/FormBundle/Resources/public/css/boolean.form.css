@@ -1,6 +1,6 @@
 .boolean-form-type-container {
     position: relative;
-    height: 2.2em;
+    height: 2.5em;
     width: 78px;
     background-color: #e3e3e3;
     overflow: hidden;
@@ -20,5 +20,5 @@
     transition: margin-left 0.1s 0s linear;
 }
 
-.boolean-form-type-container.yes { background: #5bc0de }
+.boolean-form-type-container.yes { background: #384164 }
 .boolean-form-type-container.yes .boolean-btn { margin-left: 50% }
